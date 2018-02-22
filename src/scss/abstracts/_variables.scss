@@ -10,34 +10,36 @@ $font-stack: 'Roboto', sans-serif;
 $font-light: 300;
 $font-normal: 400;
 
-/// COLORS
-$main: #5031A9;
-$secondary: #FFF;
-
 // Palette
 
-$primary-color-dark:   #1976D2;
-$primary-color:        #2196F3;
-$primary-color-light:  #BBDEFB;
-$primary-color-text:   #FFFFFF;
-$accent-color:         #9E9E9E;
+$primary-color:        #D0BF5A;
+$primary-color-light:  #FAD406;
+$white: 			   #FBFBFB;
+$accent-color:         #C5BE9B;
 $primary-text-color:   #212121;
-$secondary-text-color: #757575;
-$divider-color:        #BDBDBD;
+$secondary-color: #DAD8CB;
 
+/*
+$primary-color:        #50caff;
+$primary-color-light:  #FAD406;
+$white: 			   #FBFBFB;
+$accent-color:         #67d830;
+$primary-text-color:   #212121;
+$secondary-color: #DAD8CB;
+*/
 
 
 // BODY
 //
 // Settings for the `<body>` element.
 
-$body-bg: $primary-color-text;
+//$body-bg: $primary-color-text;
 $body-color: $primary-text-color;
 
 // LINKS
 //
 // Style anchor elements.
-$link-color: $primary-color-text;
+$link-color: $primary-text-color;
 $link-decoration: none;
 $link-hover-color: $primary-color-light;
 $link-hover-decoration: none;

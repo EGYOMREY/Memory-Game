@@ -86,13 +86,13 @@ var cards = [{
     name: "Ramón José Velasquez",
     img: "./img/J-Ramon-Velasquez.jpg",
     id: 15,
-    period: "1994-1999",
+    period: "1993-1994",
     info: "Congreso lo elige presidente de la república para finalizar ese periodo presidencial. El Congreso le concede una Ley Habilitante y de ese modo en noviembre se aprueba el IVA. Impulsó la descentralización creando, entre otras medidas, el ministerio de Estado para la Descentralización. En enero de 1994 el Banco Latino quiebra y es intervenido por el Estado. Se genera una crisis en el sistema financiero. El sistema de partidos políticos empieza a colapsar. Nuevas fuerzas políticas empiezan a surgir."
 }, {
     name: "Ramón José Velasquez",
     img: "./img/F-Ramon-Velasquez.jpg",
     id: 16,
-    period: "1994-1999",
+    period: "1993-1994",
     info: "Congreso lo elige presidente de la república para finalizar ese periodo presidencial. El Congreso le concede una Ley Habilitante y de ese modo en noviembre se aprueba el IVA. Impulsó la descentralización creando, entre otras medidas, el ministerio de Estado para la Descentralización. En enero de 1994 el Banco Latino quiebra y es intervenido por el Estado. Se genera una crisis en el sistema financiero. El sistema de partidos políticos empieza a colapsar. Nuevas fuerzas políticas empiezan a surgir."
 }, {
     name: "Rafael Caldera",
@@ -135,13 +135,13 @@ var cards = [{
     img: "./img/J-Hugo-Chavez3.jpg",
     id: 23,
     period: "2007-2013",
-    info: "Tercer Periodo: Electo popularmente. Inicia su nuevo mandato trazando el nuevo rumbo de la nación hacia el “Socialismo del siglo XXI”. Se intensifica la política de expropiaciones y nacionalizaciones en 2007 con las compras de CANTV y la electricidad de Caracas. RCTV debe salir del aire debido a que no se le renueva su concesión. Planteaba, entre otras cosas, la introducción de las comunas y la reelección inmediata y sin límites del presidente. El gobierno pierde por estrecho margen. La inflación en el país empieza a constituirse como un problema y se registran altos índices de criminalidad. La iniciativa privada pierde espacios frente a los entes y empresas estadales. La polarización política se asienta en el país entre estos dos bloques. Aprobada popularmente la reforma a la constitución de 1999 en febrero de 2009. Esta nueva propuesta se centró principalmente en permitir la reelección indefinida en todos los cargos de elección popular incluyendo al presidente. Crisis en el sector energético entre 2010-2011 deja fallas recurrentes en el suministro de electricidad. Continúa la política de construcción de viviendas, se amplía las líneas de metro en Caracas y se inicia la construcción de otros metros en Valencia, Maracaibo y otras ciudades. También se construyen nuevas vías y puentes. Se crean nuevas universidades públicas como la UBV. En materia de salud se amplía la red de módulos de Barrio Adentro y se concluyen otros complejos sanitarios. Creación de la Policía Nacional Bolivariana como mecanismo de lucha contra la inseguridad."
+    info: "Tercer Periodo: Electo popularmente. Inicia su nuevo mandato trazando el nuevo rumbo de la nación hacia el “Socialismo del siglo XXI”. Se intensifica la política de expropiaciones y nacionalizaciones en 2007 con las compras de CANTV y la electricidad de Caracas. RCTV debe salir del aire debido a que no se le renueva su concesión. Planteaba, entre otras cosas, la introducción de las comunas y la reelección inmediata y sin límites del presidente. El gobierno pierde por estrecho margen. La inflación en el país empieza a constituirse como un problema y se registran altos índices de criminalidad. La iniciativa privada pierde espacios frente a los entes y empresas estadales. Aprobada popularmente la reforma a la constitución de 1999 en febrero de 2009. Esta nueva propuesta se centró principalmente en permitir la reelección indefinida en todos los cargos de elección popular incluyendo al presidente. Crisis en el sector energético entre 2010-2011 deja fallas recurrentes en el suministro de electricidad. Continúa la política de construcción de viviendas, se amplía las líneas de metro en Caracas y se inicia la construcción de otros metros en Valencia, Maracaibo y otras ciudades. También se construyen nuevas vías y puentes. Se crean nuevas universidades públicas como la UBV. Creación de la Policía Nacional Bolivariana como mecanismo de lucha contra la inseguridad."
 },{
     name: "Hugo R. Chávez Frías",
     img: "./img/F-Hugo-Chavez3.jpg",
     id: 24,
     period: "2007-2013",
-    info: "Tercer Periodo: Electo popularmente. Inicia su nuevo mandato trazando el nuevo rumbo de la nación hacia el “Socialismo del siglo XXI”. Se intensifica la política de expropiaciones y nacionalizaciones en 2007 con las compras de CANTV y la electricidad de Caracas. RCTV debe salir del aire debido a que no se le renueva su concesión. Planteaba, entre otras cosas, la introducción de las comunas y la reelección inmediata y sin límites del presidente. El gobierno pierde por estrecho margen. La inflación en el país empieza a constituirse como un problema y se registran altos índices de criminalidad. La iniciativa privada pierde espacios frente a los entes y empresas estadales. La polarización política se asienta en el país entre estos dos bloques. Aprobada popularmente la reforma a la constitución de 1999 en febrero de 2009. Esta nueva propuesta se centró principalmente en permitir la reelección indefinida en todos los cargos de elección popular incluyendo al presidente. Crisis en el sector energético entre 2010-2011 deja fallas recurrentes en el suministro de electricidad. Continúa la política de construcción de viviendas, se amplía las líneas de metro en Caracas y se inicia la construcción de otros metros en Valencia, Maracaibo y otras ciudades. También se construyen nuevas vías y puentes. Se crean nuevas universidades públicas como la UBV. En materia de salud se amplía la red de módulos de Barrio Adentro y se concluyen otros complejos sanitarios. Creación de la Policía Nacional Bolivariana como mecanismo de lucha contra la inseguridad."
+    info: "Tercer Periodo: Electo popularmente. Inicia su nuevo mandato trazando el nuevo rumbo de la nación hacia el “Socialismo del siglo XXI”. Se intensifica la política de expropiaciones y nacionalizaciones en 2007 con las compras de CANTV y la electricidad de Caracas. RCTV debe salir del aire debido a que no se le renueva su concesión. Planteaba, entre otras cosas, la introducción de las comunas y la reelección inmediata y sin límites del presidente. El gobierno pierde por estrecho margen. La inflación en el país empieza a constituirse como un problema y se registran altos índices de criminalidad. La iniciativa privada pierde espacios frente a los entes y empresas estadales. Aprobada popularmente la reforma a la constitución de 1999 en febrero de 2009. Esta nueva propuesta se centró principalmente en permitir la reelección indefinida en todos los cargos de elección popular incluyendo al presidente. Crisis en el sector energético entre 2010-2011 deja fallas recurrentes en el suministro de electricidad. Continúa la política de construcción de viviendas, se amplía las líneas de metro en Caracas y se inicia la construcción de otros metros en Valencia, Maracaibo y otras ciudades. También se construyen nuevas vías y puentes. Se crean nuevas universidades públicas como la UBV. Creación de la Policía Nacional Bolivariana como mecanismo de lucha contra la inseguridad."
 }, {
     name: "Nicolás Maduro",
     img: "./img/J-Nicolas-Maduro.jpg",
@@ -155,7 +155,7 @@ var cards = [{
     period: "2013-",
     info: "Electo popularmente para completar el período de su predecesor. Presenta el Plan de la Patria (plan propuesto por Chávez en las elecciones de 2012) como hoja de ruta de la nación hacia el Socialismo. Los problemas de escasez de productos, alta inflación e inseguridad crecen. En febrero de 2014 se desatan en distintos estados del país protestas pacíficas contra los grandes problemas del país protagonizadas por estudiantes universitarios. Durante marzo y abril continúan las manifestaciones y en algunas regiones del país se tornan violentas con detenciones y abusos por parte de las FFAA y actos vandálicos por parte de algunos grupos. Mueren varios manifestantes en el transcurso de estos sucesos. En abril una comisión de la UNASUR en conjunto con el Vaticano se ofrecen como mediadores para un diálogo entre la oposición política y el gobierno. Por su parte los estudiantes continúan en las calles siguiendo su propia agenda de protesta contra el gobierno."
 }];
-var memoryTable = document.getElementById("memory-table");
+var memoryTable = document.querySelector(".memory-table");
 var arregloP = [];
 
 function shuffle(cardArray) {
@@ -178,7 +178,7 @@ function shuffle(cardArray) {
 function renderHTML() {
     for (var i = 0; i < cards.length; i++) {
         div = document.createElement("div");
-        div.className += "prueba carta";
+        div.className += "card-container";
         img = document.createElement("img");
         img.className += "image disabled";
         img.src = cards[i].img;
@@ -203,7 +203,7 @@ var uno = '',
 var descubiertos = [];
 var totales = 0;
 
-var textoFinal = document.getElementById("textoFinal");
+var presidentInformation = document.querySelector(".president-information");
 
 function chequeo(e) {
     if (esMatch < 1) {
@@ -226,8 +226,8 @@ function chequeo(e) {
             descubiertos.push(selected1.alt);
             puntajeN += 100;
             medirPuntaje();
-            textoFinal.innerHTML = '';
-            textoFinal.innerHTML = "<h3>Muy Bien!</h3><br>Presidente: " + selected1.alt + "<br>" + e.target.dataset.info;
+            presidentInformation.innerHTML = '';
+            presidentInformation.innerHTML = "<h3>Muy Bien!</h3><br>Presidente: " + selected1.alt + "<br>" + e.target.dataset.info;
             esMatch = 0;
             totales +=2;
             if (totales === cards.length) {
@@ -251,8 +251,8 @@ function reiniciar() {
     shuffle(cards);
     renderHTML();
     movimientos = 0;
-    puntaje = 0;
-    textoFinal.innerHTML = '';
+    puntajeN = 0;
+    presidentInformation.innerHTML = '';
     registrarMovimientos();
     medirPuntaje();
 
@@ -266,13 +266,13 @@ function iniciar() {
 }
 
 function registrarMovimientos() {
-    var informacion = document.getElementById("informacion");
-    informacion.innerHTML = "Cantidad de Movimientos: " + movimientos;
+    var movesCounter = document.querySelector(".moves-counter");
+    movesCounter.innerHTML = "Cantidad de Movimientos: " + movimientos;
 }
 
 function medirPuntaje() {
-    var puntaje = document.getElementById("puntaje");
-    puntaje.innerHTML = "Puntaje: " + puntajeN;
+    var userPoints = document.querySelector(".user-points");
+    userPoints.innerHTML = "Puntaje: " + puntajeN;
 }
 
 

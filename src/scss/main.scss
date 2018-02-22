@@ -18,14 +18,15 @@
 
 @import "layout/grid";
 @import "layout/header";
-@import "layout/mainPage";
+@import "layout/menu";
 
 
 // 5. Components
 
-//@import "components/input-block";
-//@import "components/button";
-//@import "components/slider";
+@import "components/button";
+@import "components/user-values";
+@import "components/memory-table";
+@import "components/memory-card";
 
 // 6. Page-specific styles
 //@import "";

@@ -1,34 +1,39 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Presidentes de Venezuela</title>
-    <meta name="description" content="Aprende quienes fueron los presidentes de Venezuela desde 1959 hasta hoy en día">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-    
-  </head>
-  <body>
-    <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-    <![endif]-->
-    <div class="header">
-        <h1>Juego de Memoria</h1>
-    </div>
-<div class="container">
-    <div id="nombres">
-        <button id="botonreiniciar" onclick="reiniciar()">Reiniciar Juego</button>
-        <div id="informacion"></div>
-        <div id="puntaje"></div>
-        <div id="textoFinal"></div>
-    </div>
-    <div id="memory-table">
-        </div>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Presidentes de Venezuela</title>
+        <meta name="description" content="Aprende quienes fueron los presidentes de Venezuela desde 1959 hasta hoy en día">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
         
-    </div>
-    
-    <script src="js/app.js"></script>
-  </body>
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        <header class="header">
+            <h1>Juego de Memoria - Presidentes de Venezuela 1958 - 2013</h1>
+        </header>
+        <main class="container">
+            <div class="menu">
+                <div role="button" class="btn-container">
+                    <a role="button" class="btn btn--gray" >Instrucciones</a>
+                    <a role="button" class="btn btn--gray" href="https://www.venezuelatuya.com/historia/presidentes_de_venezuela_1958_a_1998.htm">Aprende más</a>
+                    <a role="button" class="btn btn--yellow" id="botonreiniciar" onclick="reiniciar()">Reiniciar Juego</a>
+                </div>
+                <div class="user-values">
+                    <div class="moves-counter"></div>
+                    <div class="user-points"></div>
+                </div>
+                <div class="president-information"></div>
+            </div>
+            <div class="memory-table">
+            </div>
+        </main>
+        
+        <script src="js/app.js"></script>
+    </body>
 </html>
