@@ -3,7 +3,7 @@ var cards = [{
     img: "./img/J-romuloBeta.jpg",
     id: 1,
     period: "1959-1964",
-    info: "Electo presidente popularmente. En abril el general Castro León intenta derrocar el gobierno pero fracasa y es encarcelado. Se crea ese mismo mes la Corporación Venezolana de Petróleo, antecedente de PDVSA. En junio durante una caravana presidencial Betancourt sufre un atentado contra su vida explotando una bomba cerca de su carro. Sufre heridas menores. En julio de 1960 AD se divide y nace el Movimiento de Izquierda Revolucionario. Nace la OPEP en septiembre. Promulgada en enero la Constitución de 1961. Basada en la de 1947 mantiene el sufragio universal para los cargos de elección popular, periodo presidencial de cinco años y sin reelección inmediata. Constitución más longeva de nuestra historia."
+    info: "Electo presidente popularmente. En abril el general Castro León intenta derrocar el gobierno pero fracasa y es encarcelado.<br> Se crea ese mismo mes la Corporación Venezolana de Petróleo, antecedente de PDVSA.<br> En junio durante una caravana presidencial Betancourt sufre un atentado contra su vida explotando una bomba cerca de su carro.<br> Sufre heridas menores.<br> En julio de 1960 AD se divide y nace el Movimiento de Izquierda Revolucionario. Nace la OPEP en septiembre.<br> Promulgada en enero la Constitución de 1961.<br> Basada en la de 1947 mantiene el sufragio universal para los cargos de elección popular, periodo presidencial de cinco años y sin reelección inmediata. Constitución más longeva de nuestra historia."
 }, {
     name: "Rómulo Betancourt",
     img: "./img/F-RomuloBetancourt.jpg",
@@ -136,28 +136,43 @@ var cards = [{
     id: 23,
     period: "2007-2013",
     info: "Tercer Periodo: Electo popularmente. Inicia su nuevo mandato trazando el nuevo rumbo de la nación hacia el “Socialismo del siglo XXI”. Se intensifica la política de expropiaciones y nacionalizaciones en 2007 con las compras de CANTV y la electricidad de Caracas. RCTV debe salir del aire debido a que no se le renueva su concesión. Planteaba, entre otras cosas, la introducción de las comunas y la reelección inmediata y sin límites del presidente. El gobierno pierde por estrecho margen. La inflación en el país empieza a constituirse como un problema y se registran altos índices de criminalidad. La iniciativa privada pierde espacios frente a los entes y empresas estadales. Aprobada popularmente la reforma a la constitución de 1999 en febrero de 2009. Esta nueva propuesta se centró principalmente en permitir la reelección indefinida en todos los cargos de elección popular incluyendo al presidente. Crisis en el sector energético entre 2010-2011 deja fallas recurrentes en el suministro de electricidad. Continúa la política de construcción de viviendas, se amplía las líneas de metro en Caracas y se inicia la construcción de otros metros en Valencia, Maracaibo y otras ciudades. También se construyen nuevas vías y puentes. Se crean nuevas universidades públicas como la UBV. Creación de la Policía Nacional Bolivariana como mecanismo de lucha contra la inseguridad."
-},{
+}, {
     name: "Hugo R. Chávez Frías",
     img: "./img/F-Hugo-Chavez3.jpg",
     id: 24,
     period: "2007-2013",
     info: "Tercer Periodo: Electo popularmente. Inicia su nuevo mandato trazando el nuevo rumbo de la nación hacia el “Socialismo del siglo XXI”. Se intensifica la política de expropiaciones y nacionalizaciones en 2007 con las compras de CANTV y la electricidad de Caracas. RCTV debe salir del aire debido a que no se le renueva su concesión. Planteaba, entre otras cosas, la introducción de las comunas y la reelección inmediata y sin límites del presidente. El gobierno pierde por estrecho margen. La inflación en el país empieza a constituirse como un problema y se registran altos índices de criminalidad. La iniciativa privada pierde espacios frente a los entes y empresas estadales. Aprobada popularmente la reforma a la constitución de 1999 en febrero de 2009. Esta nueva propuesta se centró principalmente en permitir la reelección indefinida en todos los cargos de elección popular incluyendo al presidente. Crisis en el sector energético entre 2010-2011 deja fallas recurrentes en el suministro de electricidad. Continúa la política de construcción de viviendas, se amplía las líneas de metro en Caracas y se inicia la construcción de otros metros en Valencia, Maracaibo y otras ciudades. También se construyen nuevas vías y puentes. Se crean nuevas universidades públicas como la UBV. Creación de la Policía Nacional Bolivariana como mecanismo de lucha contra la inseguridad."
-}, {
-    name: "Nicolás Maduro",
-    img: "./img/J-Nicolas-Maduro.jpg",
-    id: 25,
-    period: "2013-",
-    info: "Electo popularmente para completar el período de su predecesor. Presenta el Plan de la Patria (plan propuesto por Chávez en las elecciones de 2012) como hoja de ruta de la nación hacia el Socialismo. Los problemas de escasez de productos, alta inflación e inseguridad crecen. En febrero de 2014 se desatan en distintos estados del país protestas pacíficas contra los grandes problemas del país protagonizadas por estudiantes universitarios. Durante marzo y abril continúan las manifestaciones y en algunas regiones del país se tornan violentas con detenciones y abusos por parte de las FFAA y actos vandálicos por parte de algunos grupos. Mueren varios manifestantes en el transcurso de estos sucesos. En abril una comisión de la UNASUR en conjunto con el Vaticano se ofrecen como mediadores para un diálogo entre la oposición política y el gobierno. Por su parte los estudiantes continúan en las calles siguiendo su propia agenda de protesta contra el gobierno."
-}, {
-    name: "Nicolás Maduro",
-    img: "./img/F-Nicolas-Maduro.jpg",
-    id: 26,
-    period: "2013-",
-    info: "Electo popularmente para completar el período de su predecesor. Presenta el Plan de la Patria (plan propuesto por Chávez en las elecciones de 2012) como hoja de ruta de la nación hacia el Socialismo. Los problemas de escasez de productos, alta inflación e inseguridad crecen. En febrero de 2014 se desatan en distintos estados del país protestas pacíficas contra los grandes problemas del país protagonizadas por estudiantes universitarios. Durante marzo y abril continúan las manifestaciones y en algunas regiones del país se tornan violentas con detenciones y abusos por parte de las FFAA y actos vandálicos por parte de algunos grupos. Mueren varios manifestantes en el transcurso de estos sucesos. En abril una comisión de la UNASUR en conjunto con el Vaticano se ofrecen como mediadores para un diálogo entre la oposición política y el gobierno. Por su parte los estudiantes continúan en las calles siguiendo su propia agenda de protesta contra el gobierno."
 }];
-var memoryTable = document.querySelector(".memory-table");
-var arregloP = [];
 
+//---- GLOBAL VARIABLES ----//
+var memoryTable = document.querySelector(".memory-table");
+var presidentInformation = document.querySelector(".president-information");
+var cardsClicked = 0;
+var firstChoice = '',
+    secondChoice = '',
+    firstSelection, secondSelection, userMoves = 0,
+    userTotalPoints = 0;
+var totalCardsClicked = 0;
+
+/**
+  * @desc begins the game
+*/
+function init() {
+    memoryTable.innerHTML = '';
+    userMoves = 0;
+    userTotalPoints = 0;
+    presidentInformation.innerHTML = '';
+    shuffle(cards);
+    renderHTML();
+    updateUserMoves();
+    updateUserPoints();
+}
+
+/**
+  * @desc shuffle the memory cards
+  * @param array cardArray - the array to shuffle
+  * @return array - shuffled array
+*/
 function shuffle(cardArray) {
     var oldArrayElements = cardArray.length,
         temp, i;
@@ -171,109 +186,85 @@ function shuffle(cardArray) {
         cardArray[i] = temp;
     }
     return cardArray;
-
 }
-//shuffle(cards);
 
+/**
+  * @desc renders the memory cards and append them to the memory board
+  * @param
+  * @return
+*/
 function renderHTML() {
     for (var i = 0; i < cards.length; i++) {
-        div = document.createElement("div");
+        var div = document.createElement("div");
         div.className += "card-container";
-        img = document.createElement("img");
+        var img = document.createElement("img");
         img.className += "image disabled";
         img.src = cards[i].img;
         img.alt = cards[i].name;
         img.dataset.period = cards[i].period;
         img.dataset.info = cards[i].info;
-        img.addEventListener("click", chequeo);
+        img.addEventListener("click", checkClickedCard);
         div.appendChild(img);
-
-
-
         memoryTable.appendChild(div);
     }
 }
 
-var esMatch = 0;
-var uno = '',
-    dos = '',
-    selected1, selected2, movimientos = 0,
-    puntajeN = 0;
-
-var descubiertos = [];
-var totales = 0;
-
-var presidentInformation = document.querySelector(".president-information");
-
-function chequeo(e) {
-    if (esMatch < 1) {
-        uno = e.target.dataset.period;
-        esMatch++;
-        selected1 = e.target;
-        selected1.classList.toggle("disabled");
-        selected1.style.pointerEvents = "none";
-        movimientos++;
-        registrarMovimientos(movimientos);
-    } else if (esMatch === 1) {
-        dos = e.target.getAttribute('data-period');
-        esMatch++;
-        selected2 = e.target;
-        selected2.classList.toggle("disabled");
-        if (uno === dos) {
-            console.log("bingo");
-            selected1.style.pointerEvents = "none";
-            selected2.style.pointerEvents = "none";
-            descubiertos.push(selected1.alt);
-            puntajeN += 100;
-            medirPuntaje();
+/**
+  * @desc checks for matches when user clicks on memory cards
+  * @param e - the clicked element
+  * @return
+*/
+function checkClickedCard(e) {
+    // Check if no card has been clicked
+    if (cardsClicked < 1) {
+        firstChoice = e.target.dataset.period;
+        cardsClicked++;
+        firstSelection = e.target;
+        firstSelection.classList.toggle("disabled");
+        firstSelection.style.pointerEvents = "none";
+        userMoves++;
+        updateUserMoves();
+    } else if (cardsClicked === 1) {
+        // Checks if there's at least 1 clicked card, so the user can click another one
+        secondChoice = e.target.dataset.period;
+        cardsClicked++;
+        secondSelection = e.target;
+        secondSelection.classList.toggle("disabled");
+        // Checks if both cards match
+        if (firstChoice === secondChoice) {
+            firstSelection.style.pointerEvents = "none";
+            secondSelection.style.pointerEvents = "none";
+            userTotalPoints += 100;
+            updateUserPoints();
             presidentInformation.innerHTML = '';
-            presidentInformation.innerHTML = "<h3>Muy Bien!</h3><br>Presidente: " + selected1.alt + "<br>" + e.target.dataset.info;
-            esMatch = 0;
-            totales +=2;
-            if (totales === cards.length) {
+            presidentInformation.innerHTML = "<h3>Muy Bien!</h3><br>Presidente: " + firstSelection.alt + "<br>" + e.target.dataset.info;
+            cardsClicked = 0;
+            totalCardsClicked += 2;
+            // Checks if all the cards have been correctly guessed
+            if (totalCardsClicked === cards.length) {
                 alert("ganador!");
             }
         } else {
             setTimeout(function() {
-                selected1.classList.toggle("disabled");
-                selected2.classList.toggle("disabled");
-                selected1.style.pointerEvents = "auto"
-                esMatch = 0;
-            }, 700)
+                // Resets the clicked hards for not matching
+                firstSelection.classList.toggle("disabled");
+                secondSelection.classList.toggle("disabled");
+                firstSelection.style.pointerEvents = "auto";
+                cardsClicked = 0;
+            }, 700);
         }
     }
 }
 
-var nothing = '';
 
-function reiniciar() {
-    memoryTable.innerHTML = '';
-    shuffle(cards);
-    renderHTML();
-    movimientos = 0;
-    puntajeN = 0;
-    presidentInformation.innerHTML = '';
-    registrarMovimientos();
-    medirPuntaje();
-
-}
-
-function iniciar() {
-    shuffle(cards);
-    renderHTML();
-    registrarMovimientos();
-    medirPuntaje();
-}
-
-function registrarMovimientos() {
+function updateUserMoves() {
     var movesCounter = document.querySelector(".moves-counter");
-    movesCounter.innerHTML = "Cantidad de Movimientos: " + movimientos;
+    movesCounter.innerHTML = "Cantidad de Movimientos: " + userMoves;
 }
 
-function medirPuntaje() {
+function updateUserPoints() {
     var userPoints = document.querySelector(".user-points");
-    userPoints.innerHTML = "Puntaje: " + puntajeN;
+    userPoints.innerHTML = "Puntaje: " + userTotalPoints;
 }
 
-
-iniciar();
+init();
