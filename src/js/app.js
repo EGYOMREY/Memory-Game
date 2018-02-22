@@ -146,7 +146,7 @@ var cards = [{
     name: "Nicolás Maduro",
     img: "./img/J-Nicolas-Maduro.jpg",
     id: 25,
-    period: "2007-2013",
+    period: "2013-",
     info: "Electo popularmente para completar el período de su predecesor. Presenta el Plan de la Patria (plan propuesto por Chávez en las elecciones de 2012) como hoja de ruta de la nación hacia el Socialismo. Los problemas de escasez de productos, alta inflación e inseguridad crecen. En febrero de 2014 se desatan en distintos estados del país protestas pacíficas contra los grandes problemas del país protagonizadas por estudiantes universitarios. Durante marzo y abril continúan las manifestaciones y en algunas regiones del país se tornan violentas con detenciones y abusos por parte de las FFAA y actos vandálicos por parte de algunos grupos. Mueren varios manifestantes en el transcurso de estos sucesos. En abril una comisión de la UNASUR en conjunto con el Vaticano se ofrecen como mediadores para un diálogo entre la oposición política y el gobierno. Por su parte los estudiantes continúan en las calles siguiendo su propia agenda de protesta contra el gobierno."
 }, {
     name: "Nicolás Maduro",
