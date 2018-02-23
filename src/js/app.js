@@ -153,26 +153,28 @@ var firstChoice = '',
     firstSelection, secondSelection, userMoves = 0,
     userTotalPoints = 0;
 var totalCardsClicked = 0;
+var shuffledArray = cards.slice();
+var img;
 
 /**
-  * @desc begins the game
-*/
+ * @desc begins the game
+ */
 function init() {
     memoryTable.innerHTML = '';
     userMoves = 0;
     userTotalPoints = 0;
     presidentInformation.innerHTML = '';
-    shuffle(cards);
-    renderHTML();
+    shuffle(shuffledArray);
+    renderHTML(shuffledArray);
     updateUserMoves();
     updateUserPoints();
 }
 
 /**
-  * @desc shuffle the memory cards
-  * @param array cardArray - the array to shuffle
-  * @return array - shuffled array
-*/
+ * @desc shuffle the memory cards
+ * @param array cardArray - the array to shuffle
+ * @return array - shuffled array
+ */
 function shuffle(cardArray) {
     var oldArrayElements = cardArray.length,
         temp, i;
@@ -189,16 +191,20 @@ function shuffle(cardArray) {
 }
 
 /**
-  * @desc renders the memory cards and append them to the memory board
-  * @param
-  * @return
-*/
-function renderHTML() {
+ * @desc renders the memory cards and append them to the memory board
+ * @param
+ * @return
+ */
+function renderHTML(cards) {
     for (var i = 0; i < cards.length; i++) {
         var div = document.createElement("div");
         div.className += "card-container";
-        var img = document.createElement("img");
-        img.className += "image-card disabled";
+        img = document.createElement("img");
+        if (totalCardsClicked === cards.length) {
+            img.className += "image-card";
+        } else {
+            img.className += "image-card disabled";
+        }
         img.src = cards[i].img;
         img.alt = cards[i].name;
         img.dataset.period = cards[i].period;
@@ -206,14 +212,16 @@ function renderHTML() {
         img.addEventListener("click", checkClickedCard);
         div.appendChild(img);
         memoryTable.appendChild(div);
+
+        //console.log(memoryTable);
     }
 }
 
 /**
-  * @desc checks for matches when user clicks on memory cards
-  * @param e - the clicked element
-  * @return
-*/
+ * @desc checks for matches when user clicks on memory cards
+ * @param e - the clicked element
+ * @return
+ */
 function checkClickedCard(e) {
     // Check if no card has been clicked
     if (cardsClicked < 1) {
@@ -241,8 +249,10 @@ function checkClickedCard(e) {
             cardsClicked = 0;
             totalCardsClicked += 2;
             // Checks if all the cards have been correctly guessed
+            
             if (totalCardsClicked === cards.length) {
-                alert("ganador!");
+                modal();
+                userWins();
             }
         } else {
             setTimeout(function() {
@@ -266,5 +276,35 @@ function updateUserPoints() {
     var userPoints = document.querySelector(".user-points");
     userPoints.innerHTML = "Puntaje: " + userTotalPoints;
 }
+
+function userWins() {
+    setTimeout(function() {
+        memoryTable.innerHTML = '';
+        console.log(cards);
+        renderHTML(cards);
+    }, 1000);
+
+}
+
+function modal() {
+    if (totalCardsClicked === cards.length) {
+        var modal = document.querySelector(".modal--winner");
+    } else {
+        var modal = document.querySelector(".modal--instructions");
+    }
+    modal.style.display = "block";
+    var closeModal = document.querySelector(".close");
+    closeModal.addEventListener("click", function() {
+        modal.style.display = "none";
+    });
+    document.onkeydown = function(evt) {
+        evt = evt || window.event;
+        if (evt.keyCode == 27) {
+            modal.style.display = "none";
+        }
+    };
+}
+
+
 
 init();
