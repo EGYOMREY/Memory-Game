@@ -249,7 +249,7 @@ function checkClickedCard(e) {
             cardsClicked = 0;
             totalCardsClicked += 2;
             // Checks if all the cards have been correctly guessed
-            
+
             if (totalCardsClicked === cards.length) {
                 modal();
                 userWins();
@@ -282,6 +282,7 @@ function userWins() {
         memoryTable.innerHTML = '';
         console.log(cards);
         renderHTML(cards);
+        totalCardsClicked = 0;
     }, 1000);
 
 }
