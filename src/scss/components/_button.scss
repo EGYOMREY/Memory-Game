@@ -18,11 +18,10 @@
     cursor: pointer;
     font-size: 1.1rem;
     color: $link-color;
-  text-decoration: $link-decoration;
+    text-decoration: $link-decoration;
 
     &--gray {
         background-color: $primary-color;
-        
 
         &:hover {
             background-color: darken($primary-color, 6%);
@@ -32,8 +31,20 @@
 
     &--yellow {
         background-color: $primary-color-light;
+
         &:hover {
             background-color: darken($primary-color-light, 6%);
+            color: $white;
+        }
+    }
+
+    &--winner {
+        border: none;
+        background-color: $primary-color;
+        width: 6em;
+
+        &:hover {
+            background-color: darken($primary-color, 6%);
             color: $white;
         }
     }

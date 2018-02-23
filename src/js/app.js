@@ -212,8 +212,6 @@ function renderHTML(cards) {
         img.addEventListener("click", checkClickedCard);
         div.appendChild(img);
         memoryTable.appendChild(div);
-
-        //console.log(memoryTable);
     }
 }
 
@@ -251,7 +249,6 @@ function checkClickedCard(e) {
             // Checks if all the cards have been correctly guessed
 
             if (totalCardsClicked === cards.length) {
-                modal();
                 userWins();
             }
         } else {
@@ -278,9 +275,9 @@ function updateUserPoints() {
 }
 
 function userWins() {
+    modal();
     setTimeout(function() {
         memoryTable.innerHTML = '';
-        console.log(cards);
         renderHTML(cards);
         totalCardsClicked = 0;
     }, 1000);
@@ -290,11 +287,13 @@ function userWins() {
 function modal() {
     if (totalCardsClicked === cards.length) {
         var modal = document.querySelector(".modal--winner");
+        var closeModal = document.querySelector(".close-winner");
     } else {
         var modal = document.querySelector(".modal--instructions");
+        var closeModal = document.querySelector(".close");
     }
     modal.style.display = "block";
-    var closeModal = document.querySelector(".close");
+    //var closeModal = document.querySelector(".close");
     closeModal.addEventListener("click", function() {
         modal.style.display = "none";
     });
