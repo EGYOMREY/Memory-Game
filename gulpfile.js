@@ -2,7 +2,6 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     browserSync = require('browser-sync'),
     babel = require('gulp-babel'),
-    uglify = require('gulp-uglify'),
     concatify = require('gulp-concat'),
     autoprefixer = require('gulp-autoprefixer'),
     htmlmin = require('gulp-htmlmin');
@@ -62,11 +61,9 @@ gulp.task('images', function() {
 gulp.task('scripts', function() {
     return gulp.src('src/js/app.js')
             .pipe(babel())
-            .pipe(uglify())
             .pipe(concatify('app.js'))
         .pipe(gulp.dest('./build/js/'));
 });
-
 
 //we deploy all our tasks by typing gulp
 gulp.task('default', ['styles', 'content', 'scripts', 'serve']);
